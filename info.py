@@ -64,8 +64,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY', ))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vnshortener.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f4366f982d0041a539909d20f56e9fb82a4b9179')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'inshorturl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fe8b524ab72d7b604f439e192623cf300d944963')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
